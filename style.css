@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    color:#fff;
+
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-color: black;
+    background-image: url('/header-image.png');
+    padding: 10px 8%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+nav button{
+    border: 0;
+    outline:0;
+    background: #bd0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size:12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+.languages-btn{
+    /* font-size: 2px; */
+    display: line-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 10px 7px;
+}
+.languages-btn img{
+    width: 10px;
+    margin-left: 10px;
+}
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.header-content h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600px;
+    max-width: 650px;
+}
+.header-content h3{
+    font-weight: 400px;
+    margin-bottom: 20px;
+
+}
+.email-singup{
+    background: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.email-singup input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+
+}
+.email-singup button{
+    background: #bd0001;
+    border: 0;
+    outline: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+.feature{
+    padding: 50px 12%;
+    font-size: 22px;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+ .text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px; 
+    margin: auto;
+
+} 
+.img-col{
+    flex-basis: 50%;
+     margin-bottom: 20px;
+}
+.img-col img{
+    display: block;
+    width: 90%;
+}
+.feature h2{
+    font-size: 50px;
+    font-weight : 600px;  ;
+    margin-bottom: 20px;
+}
